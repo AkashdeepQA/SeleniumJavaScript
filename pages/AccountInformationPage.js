@@ -93,7 +93,7 @@ class AccountInformationPage {
     await this.driver.findElement(this.optinCheckbox).click();
   }
 
-  // Address methods
+  // Address methods..
   // async fillAddressDetails({ firstName, lastName, company, address1, address2, country, state, city, zipcode, mobile }) {
   //   await this.driver.findElement(this.firstName).sendKeys(firstName);
   //   await this.driver.findElement(this.lastName).sendKeys(lastName);
