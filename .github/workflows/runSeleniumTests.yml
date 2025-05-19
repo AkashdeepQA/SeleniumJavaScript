@@ -2,9 +2,10 @@ name: Selenium Tests on Windows
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
+  workflow_dispatch:  # 👈 Enables manual trigger via GitHub UI
 
 jobs:
   test:
