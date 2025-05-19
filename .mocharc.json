@@ -1,4 +1,8 @@
 {
     "timeout": "60000",
-    "spec": "tests/**/*.test.js"
+    "spec": "tests/**/*.test.js",
+    "reporter": "mochawesome",
+    "reporter-options": [
+        "reportDir=./mochawesome-report"
+    ]
 }
